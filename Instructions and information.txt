@@ -29,6 +29,7 @@ The sorted list is:  [1, 2, 3, 4, 5, 7, 8, 9, 11, 13, 14, 16, 19, 23, 45, 55, 69
 
 Additional notes:
 - The algorithm is implemented in Python 3.5
+- There are minor variations in the actual implementation of the algorithm. However, the logic is constant.
 - The input list is given as mentioned in the research paper.
 - You can change the input list 'L' as you like and rerun the program. 
 - You can also remove the commented print statements to trace the flow of the algorithm.
