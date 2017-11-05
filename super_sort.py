@@ -1,5 +1,7 @@
-L = [2,7,4,19,45,16,9,13,8,69,55,11,23,98,14,5,1,3]
+#Input list
+L = [2,7,4,19,45,16,9,13,8,69,55,11,23,98,14,5,1,3]	
 
+#Merging function
 def merge(M,N):
     merging_list = []   		#create empty list to merge the lists M and N
 
@@ -30,7 +32,7 @@ def merge(M,N):
             
     return(merging_list)    		#return the merged list
 
-
+#Sorting function
 def supersort(L, left, right):
     if len(L) < 1:  			#if list is empty, return 0
         return()
@@ -89,7 +91,8 @@ def supersort(L, left, right):
     return(merge(intermediate_sorted_1, intermediate_sorted_2))
 
 print("\n\nThe input list is:  ", L)
-sorted_list = supersort(L, 0, len(L))
+#Call to the sorting function
+sorted_list = supersort(L, 0, len(L))	
 print("\nThe sorted list is: ", sorted_list)
 
 
