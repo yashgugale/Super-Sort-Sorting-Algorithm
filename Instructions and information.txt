@@ -32,7 +32,7 @@ Additional notes:
 - There are minor variations in the actual implementation of the algorithm. However, the logic is constant.
 - The input list is given as mentioned in the research paper.
 - You can change the input list 'L' as you like and rerun the program. 
-- You can also remove the commented print statements to trace the flow of the algorithm.
+- You can also add/remove the commented print statements to trace the flow of the algorithm.
 - Link to the research paper will be added on publication.
 
 Ownership: 
